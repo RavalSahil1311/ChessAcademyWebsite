@@ -1,0 +1,211 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    color: gold;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    /* background: url('/img/Background.webp'); */
+    /* background: url('/img/chess-5950370.jpg'); */
+    background: url("/Coding(Personal)/Projects/ChessAcademyWebsite/chess-gd64978239_1920.jpg");
+    /* background-color: black; */
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+/* header{ 
+    border: 2px solid red;
+}   */
+.navbar {
+    /* margin: 0px; */
+    /* position: fixed; */
+    display: inline-block;
+}
+
+.navbar li {
+    font-size: 25px;
+    display: inline-block;
+}
+
+.navbar li a {
+    position: relative;
+    left: 280px;
+    color: aliceblue;
+    text-decoration: none;
+    padding: 0px 42px;
+}
+
+.navbar li a:hover {
+    text-decoration: underline;
+    color: rgb(255, 122, 122);
+}
+
+.left {
+    /* border: 2px solid red; */
+    /* position: fixed; */
+    /* border: 2px solid red; */
+    z-index: 2;
+    color: white;
+    height: 90px;
+    width: 90px;
+    font-size: 65px;
+    text-align: center;
+    /* background-color: white; */
+    display: inline-block;
+    position: absolute;
+    left: 30px;
+    top: 9px;
+}
+
+.left p {
+    /* position: fixed; */
+    /* position: absolute; */
+    text-align: center;
+    margin-top: -14px;
+    margin-left: 7px;
+}
+
+.left div {
+    line-height: 10px;
+    /* text-align: center; */
+    font-size: 11px;
+    position: absolute;
+    margin-left: 10px;
+    margin-top: 65px;
+}
+
+.mid {
+    /* position: fixed; */
+    z-index: 1;
+    /* left: 500px; */
+    /* border: 2px solid white; */
+    display: inline-block;
+    position: relative;
+    padding:16px 0px 16px 0px;
+    /* background-color: black; */
+    /* align-items: center; */
+    width: 100%;
+    /* width: 59.5%; */
+    margin: 0px auto;
+    /* padding: 15px; */
+    display: block;
+}
+
+.right {
+    /* position: fixed; */
+    position: absolute;
+    z-index: 2;
+    right: 30px;
+    top: 12px;
+    /* border: 2px solid green; */
+    display: inline-block;
+}
+
+
+.right a img {
+    border-radius: 20px;
+    height: 67px;
+    width: 67px;
+}
+
+.right a img:hover {
+    height: 65px;
+    width: 65px;
+    border: 2px solid palevioletred;
+}
+
+.container {
+    /* border: 2px solid green; */
+    position: absolute;
+    top: 100px;
+    left: 50px;
+    margin: 37px;
+    padding: 30px 45px;
+    width: 33%;
+    border-radius: 25px 100px;
+    border: 2px solid rgb(255, 255, 255);
+}
+
+.container h1 {
+    text-align: center;
+    color: white;
+}
+
+.form-group input {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+    font-size: 25px;
+    display: block;
+    width: 350px;
+    padding: 10px;
+    margin: 6px auto;
+    border-radius: 6px 160px;
+    border: 4px solid rgb(68, 46, 46);
+    /* transition: border-radius 1s; */
+    transition: background-color 1s;
+}
+
+.form-group input:hover,input:focus {
+    /* border-radius: 160px 6px; */
+    background-color: darkkhaki;
+}
+
+.container button {
+    display: block;
+    margin: 10px auto;
+    width: 55%;
+    border-radius: 16px;
+    background-color: transparent;
+    color: white;
+    padding: 4px 14px;
+    border: 2px solid rgb(68, 46, 46);
+    font-size: 35px;
+    cursor: pointer;
+}
+
+.container button:hover {
+    display: block;
+    margin: 10px auto;
+    width: 55%;
+    border-radius: 16px;
+    background-color: rgb(172, 168, 168);
+    color: black;
+    padding: 4px 14px;
+    border: 2px solid rgb(131, 102, 102);
+    font-size: 35px;
+    cursor: pointer;
+}
+#Animation{
+    display: flex;
+    /* flex-wrap: wrap; */
+    flex-flow: wrap;
+    position: relative;
+    top: 20px;
+    right: 80px;
+    width: 600px;
+    height: 600px;
+    float: right;
+    border: 2px solid green;
+}
+#Animation p{
+    font-size: 65px;
+    display: block;
+    margin: 0px;
+    margin-top: -8px;
+    margin-left: 4px;
+    color: white;
+    padding: 2px;
+}
+.BlackBox{
+    display: block;
+    height: 75px;
+    width: 75px;
+    background-color: rgba(0, 0, 0, 0.8);
+    /* border: 2px solid black; */
+}
+.WhiteBox{
+    display: block;
+    height: 75px;
+    width: 75px;
+    /* border: 2px solid white; */
+    background-color: rgba(0, 100, 0, 0.8);
+    /* background-color: rgba(255, 255, 255, 0.8); */
+    /* background-color: rgba(94, 79, 79,0.8); */
+}
